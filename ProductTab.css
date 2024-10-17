@@ -1,0 +1,23 @@
+.product-tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    height: 50%;
+    font-weight: bold;
+    background-color: #82918c; 
+    color: rgb(0, 0, 0);/* Soft gray background */
+  }
+  
+  .product-tab-container .product-box {
+    margin: 10px;
+    flex: 1 1 200px; /* Flexible item size with min width */
+    max-width: 250px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product-tab-container .product-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
